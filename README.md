@@ -9,18 +9,22 @@ into node.
 File Structure
 
 Negotiation.java
+
 Starting point of application, generates popup
 
 
 Popup.java
+
 Displays list of debates and whether or not they are active
 
 
 DItem.java
+
 A debate item in the list.
 
 
 Dialogue.java
+
 Dialogue screen with text boxes for two debaters and a comment section for spectators.
 
 
