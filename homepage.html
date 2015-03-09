@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+background-color: #d0e4fe;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1> <center> Dialogues </center> </h1>
+
+
+<div align="center">
+  
+<button type = "button" onclick = "createTitle()"> Create Dialogue </button>
+<p id = "demo"></p>
+
+
+
+
+<script>
+window.onload=genList();
+
+
+function genList() {
+for (i = 1; i < 11; i++) {
+var btn=document.createElement("BUTTON");
+var t=document.createTextNode("DIALOGUE "+i);
+btn.appendChild(t);
+document.body.appendChild(btn);
+var br=document.createElement("br");
+document.body.appendChild(br);
+body.style.textAlign = "center";
+
+}
+
+}
+
+function createTitle() {
+var title = prompt("Enter title:");
+window.open("dialogue.html");
+
+
+}
+
+
+</script>
+
+</div>
+
+</body>
+</html> 
